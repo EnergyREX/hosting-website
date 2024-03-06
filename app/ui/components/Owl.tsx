@@ -78,7 +78,7 @@ export default function Owl () {
       <OwlCard>
         <OwlCardTitle>Syntalink Solutions</OwlCardTitle>
         <OwlCardDescription>
-          We provide premium solitions for professionals, developers and businesses.
+          We provide premium solutions for professionals, developers and businesses.
         </OwlCardDescription>
         <OwlCardList>
           <OwlCardListItem><CiCircleCheck className={styles.listitemicon}/> Game server hosting.</OwlCardListItem>

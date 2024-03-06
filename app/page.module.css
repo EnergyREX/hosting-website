@@ -179,9 +179,8 @@
   cursor: pointer;
   font-size: 24px;
 
-  align-self: center;
+  align-self: left;
   position: relative;
-  left: 15%
 }
 
 /* Why us */
@@ -230,4 +229,76 @@
 
 .textCard {
   display: block;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  padding-right: 20rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+
+  background-color: rgb(26, 26, 26);
+}
+
+.footerBody {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  align-content: center;
+}
+
+.footerList {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  list-style-type: none;
+}
+
+.footerListElement {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  color: rgb(179, 179, 179);
+}
+
+.footerListTitle {
+  color:rgb(47, 99, 141)
+}
+
+.titleWrapper {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  align-self: center;
+  text-align: center;
+  
+  font-size: 1.5rem;
+}
+
+.benefitsWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(26, 26, 26);
+  padding-top: 3rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.benefitsBody {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+.benefitsCard {
+  background-color: rgb(14, 14, 14);
+  padding: 1rem;
+  margin: 1rem;
+
+  border-radius: 3px;
+
+  font-size: 1.3rem;
 }

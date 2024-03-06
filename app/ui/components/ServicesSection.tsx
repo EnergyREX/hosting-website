@@ -82,6 +82,7 @@ export default function ServicesSection() {
           <CardTitle>Game Server Hosting</CardTitle>
           <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
           <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+          <OrderNow>Order Now!</OrderNow>
         </SectionCardHead>
         <CardSpecificationsList>
           <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
@@ -90,7 +91,6 @@ export default function ServicesSection() {
           <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
           <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
           <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
-          <OrderNow>Order Now!</OrderNow>
         </CardSpecificationsList>
       </ServicesSectionCard>
 
@@ -99,6 +99,7 @@ export default function ServicesSection() {
           <CardTitle>KVM VPS Servers</CardTitle>
           <CardDescription>Powerful hardware in KVM VPS Servers starting at</CardDescription>
           <CardDescriptionPrice>5.99$/mo</CardDescriptionPrice>
+          <OrderNow>Order Now!</OrderNow>
         </SectionCardHead>
         <CardSpecificationsList>
           <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
@@ -107,7 +108,6 @@ export default function ServicesSection() {
           <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
           <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
           <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
-          <OrderNow>Order Now!</OrderNow>
         </CardSpecificationsList>
       </ServicesSectionCard>
 
@@ -117,6 +117,7 @@ export default function ServicesSection() {
           <CardTitle>Website hosting</CardTitle>
           <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
           <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+          <OrderNow>Order Now!</OrderNow>
         </SectionCardHead>
         <CardSpecificationsList>
           <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD EPYC 9654</SpecsListItem>
@@ -125,7 +126,6 @@ export default function ServicesSection() {
           <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
           <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
           <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
-          <OrderNow>Order Now!</OrderNow>
         </CardSpecificationsList>
       </ServicesSectionCard>
 
@@ -135,6 +135,7 @@ export default function ServicesSection() {
           <CardTitle>Dedicated server hosting</CardTitle>
           <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
           <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+          <OrderNow>Order Now!</OrderNow>
         </SectionCardHead>
         <CardSpecificationsList>
           <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
@@ -143,10 +144,65 @@ export default function ServicesSection() {
           <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
           <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
           <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
-          <OrderNow>Order Now!</OrderNow>
         </CardSpecificationsList>
       </ServicesSectionCard>
     </ServicesSectionBody>
   )
 }
 
+export function ServicesSectionMC () {
+  return (
+    <ServicesSectionBody>
+    <ServicesSectionCard>
+    <SectionCardHead>
+      <CardTitle>Game Server Hosting</CardTitle>
+      <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
+      <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+      <OrderNow>Order Now!</OrderNow>
+    </SectionCardHead>
+    <CardSpecificationsList>
+      <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
+      <SpecsListItem><FaMemory className={styles.serviceitemicon}/> DDR4 ECC @ 2666Mhz RAM</SpecsListItem>
+      <SpecsListItem><BsNvmeFill className={styles.serviceitemicon}/> NVMe SSD</SpecsListItem>
+      <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
+      <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
+      <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
+    </CardSpecificationsList>
+    </ServicesSectionCard>
+
+    <ServicesSectionCard>
+    <SectionCardHead>
+      <CardTitle>Game Server Hosting</CardTitle>
+      <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
+      <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+      <OrderNow>Order Now!</OrderNow>
+    </SectionCardHead>
+    <CardSpecificationsList>
+      <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
+      <SpecsListItem><FaMemory className={styles.serviceitemicon}/> DDR4 ECC @ 2666Mhz RAM</SpecsListItem>
+      <SpecsListItem><BsNvmeFill className={styles.serviceitemicon}/> NVMe SSD</SpecsListItem>
+      <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
+      <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
+      <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
+    </CardSpecificationsList>
+    </ServicesSectionCard>
+
+    <ServicesSectionCard>
+    <SectionCardHead>
+      <CardTitle>Game Server Hosting</CardTitle>
+      <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
+      <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
+      <OrderNow>Order Now!</OrderNow>
+    </SectionCardHead>
+    <CardSpecificationsList>
+      <SpecsListItem><FiCpu className={styles.serviceitemicon}/> AMD Ryzen 5950X</SpecsListItem>
+      <SpecsListItem><FaMemory className={styles.serviceitemicon}/> DDR4 ECC @ 2666Mhz RAM</SpecsListItem>
+      <SpecsListItem><BsNvmeFill className={styles.serviceitemicon}/> NVMe SSD</SpecsListItem>
+      <SpecsListItem><FaCalendarCheck className={styles.serviceitemicon}/> Daily Backups</SpecsListItem>
+      <SpecsListItem><FaShieldHalved className={styles.serviceitemicon}/> Anti DDoS Protection</SpecsListItem>
+      <SpecsListItem><FaGlobeAmericas className={styles.serviceitemicon}/> Miami, US </SpecsListItem>
+    </CardSpecificationsList>
+    </ServicesSectionCard>
+    </ServicesSectionBody>
+  )
+}

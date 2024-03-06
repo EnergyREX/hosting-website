@@ -62,7 +62,7 @@ export default function NavMenu () {
     <NavigationMenu>
       <NavigationTitle>LOGO</NavigationTitle>
       <NavigationMenuList>
-        <NavigationMenuItem href="/">Game Hosting</NavigationMenuItem>
+        <NavigationMenuItem href="/minecraft-hosting">Minecraft Hosting</NavigationMenuItem>
         <NavigationMenuItem href="/">VPS KVM</NavigationMenuItem>
         <NavigationMenuItem href="/">Minecraft Host</NavigationMenuItem>
         <NavigationMenuItem href="/">Dedicated Hosting</NavigationMenuItem>
