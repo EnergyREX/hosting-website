@@ -7,13 +7,9 @@ interface ChildrenProps {
   children: ReactNode;
 }
 
-function FooterBody({children}: ChildrenProps) {
-  return (<div className={styles.footerBody}>{children}</div>)
-}
+function FooterBody({children}: ChildrenProps) {return (<div className={styles.footerBody}>{children}</div>)}
 
-function FooterList({children}: ChildrenProps) {
-  return(<ul className={styles.footerList}>{children}</ul>)
-}
+function FooterList({children}: ChildrenProps) {return(<ul className={styles.footerList}>{children}</ul>)}
 
 function FooterListElement({children}: ChildrenProps) {
   return (<li className={styles.footerListElement}>{children}</li>)
@@ -25,16 +21,15 @@ export default function Footer() {
       <FooterBody>
         <FooterList>
           <FooterListElement><h2 className={styles.footerListTitle}>Our Products</h2></FooterListElement>
-          <FooterListElement><Link href="/">Minecraft Hosting</Link></FooterListElement>
-          <FooterListElement><Link href="/">Game Hosting</Link></FooterListElement>
-          <FooterListElement><Link href="/">VPS KVM</Link></FooterListElement>
-          <FooterListElement><Link href="/">Web Hosting</Link></FooterListElement>
-          <FooterListElement><Link href="/">Dedicated server Hosting</Link></FooterListElement>
+          <FooterListElement><Link href="/minecraft-hosting">Minecraft Hosting</Link></FooterListElement>
+          <FooterListElement><Link href="/vps">VPS KVM</Link></FooterListElement>
+          <FooterListElement><Link href="/web">Web Hosting</Link></FooterListElement>
+          <FooterListElement><Link href="/dedicated">Dedicated server Hosting</Link></FooterListElement>
         </FooterList>
 
         <FooterList>
           <FooterListElement><h2 className={styles.footerListTitle}>Support</h2></FooterListElement>
-          <FooterListElement><Link href="/">Discord</Link></FooterListElement>
+          <FooterListElement><Link href="https://discord.gg/syntalink">Discord</Link></FooterListElement>
           <FooterListElement><Link href="/">Knowledge Base</Link></FooterListElement>
           <FooterListElement><Link href="/">Status Page</Link></FooterListElement>
           <FooterListElement><Link href="/">Server Specs</Link></FooterListElement>
@@ -43,11 +38,12 @@ export default function Footer() {
 
         <FooterList>
           <FooterListElement><h2 className={styles.footerListTitle}>Clients</h2></FooterListElement>
-          <FooterListElement><Link href="/">Login</Link></FooterListElement>
-          <FooterListElement><Link href="/">Register</Link></FooterListElement>
-          <FooterListElement><Link href="/">Discord Support</Link></FooterListElement>
-          <FooterListElement><Link href="/">About us</Link></FooterListElement>
-          <FooterListElement><Link href="/">Partners</Link></FooterListElement>
+          <FooterListElement><Link href="https://payments.syntalink.com/index.php?rp=/login">Login</Link></FooterListElement>
+          <FooterListElement><Link href="https://payments.syntalink.com/register.php">Register</Link></FooterListElement>
+          <FooterListElement><Link href="https://discord.gg/syntalink">Discord Support</Link></FooterListElement>
+          <FooterListElement><Link href="https://payments.syntalink.com/supporttickets.php">Open a Ticket</Link></FooterListElement>
+          <FooterListElement><Link href="/about">About us</Link></FooterListElement>
+          <FooterListElement><Link href="/partners">Partners</Link></FooterListElement>
         </FooterList>
 
         <FooterList>

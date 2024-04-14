@@ -1,0 +1,23 @@
+.benefitsCard {
+  background-color: rgb(14, 14, 14);
+  padding: 1rem;
+  margin: 1rem;
+
+  border-radius: 3px;
+
+  font-size: 1.3rem;
+}
+
+.owlcard {
+  background-color: rgb(47, 99, 141, .10);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  list-style-type: none;
+  padding: 3rem;
+  border-radius: 20px;
+
+  font-size: 1.5rem;
+
+  top: 40%;
+  left: 10%;
+}

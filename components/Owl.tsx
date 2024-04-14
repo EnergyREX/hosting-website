@@ -7,13 +7,13 @@ import styles from "@/app/page.module.css";
 import background from "@/public/bgwebsite.webp";
 import { CiCircleCheck } from "react-icons/ci";
 
-import { inter } from '@/app/ui/fonts';
+import { inter } from '@/components/ui/fonts';
 
-interface OwlBodyProps {
+export interface OwlBodyProps {
   children: ReactNode;
 }
 
-function OwlBody ({ children }: OwlBodyProps) {
+export function OwlBody ({ children }: OwlBodyProps) {
   return(
     <section className={`${inter.className}`}>
       {children}
@@ -25,7 +25,7 @@ interface OwlCardProps {
   children: ReactNode;
 }
 
-function OwlCard({children}: OwlCardProps) {
+export function OwlCard({children}: OwlCardProps) {
   return (
     <div className={styles.owlcard}>
       {children}
@@ -33,19 +33,19 @@ function OwlCard({children}: OwlCardProps) {
   )
 }
 
-function OwlCardTitle({children}: OwlCardProps) {
+export function OwlCardTitle({children}: OwlCardProps) {
   return (
-    <h1>{children}</h1>
+    <h1 className={styles.title3XL}>{children}</h1>
   )
 }
 
-function OwlCardDescription({children}: OwlCardProps) {
+export function OwlCardDescription({children}: OwlCardProps) {
   return (
     <p className={styles.owlCardDescription}>{children}</p>
   )
 }
 
-function OwlCardList({children}: OwlCardProps) {
+export function OwlCardList({children}: OwlCardProps) {
   return (
     <ul className={styles.owlcardlist}>
       {children}
@@ -53,13 +53,13 @@ function OwlCardList({children}: OwlCardProps) {
   )
 }
 
-function OwlCardListItem({children}: OwlBodyProps) {
+export function OwlCardListItem({children}: OwlBodyProps) {
   return (
     <li className={styles.owlcardlistitem}>{children}</li>
   )
 }
 
-function OwlButton ({children}: OwlBodyProps) {
+export function OwlButton ({children}: OwlBodyProps) {
   return (
     <button className={styles.actionBtn}> {children} </button>
   )
@@ -72,7 +72,7 @@ export default function Owl () {
       <Image className={styles.owlbg}
         src={background}
         width={1920}
-        height={1024}
+        height={900}
         alt="background"
         priority />
       <OwlCard>
