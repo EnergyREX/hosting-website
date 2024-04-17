@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "@/app/"
+import styles from "@/app/page.module.css"
 
 import { NavigationMenu } from "@/components/NavMenu";
 import Benefits from "@/components/sections/Benefits";
