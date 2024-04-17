@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 
-const Button = () => {
+interface buttonProps {
+  children: ReactNode;
+  className: string;
+}
+
+const Button = ({children, className}: buttonProps) => {
   return (
-    <div>Button</div>
+    <button className={className}>{children}</button>
   )
 }
 

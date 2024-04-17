@@ -114,7 +114,7 @@ export default function ServicesSection() {
 
       <ServicesSectionCard>
         <SectionCardHead>
-          <CardTitle>Website hosting</CardTitle>
+          <CardTitle>Websites hosting</CardTitle>
           <CardDescription>High perfomance Minecraft servers starting at</CardDescription>
           <CardDescriptionPrice>0.99$/mo</CardDescriptionPrice>
           <OrderNow>Order Now!</OrderNow>

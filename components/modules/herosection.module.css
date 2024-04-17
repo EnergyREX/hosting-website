@@ -1,0 +1,44 @@
+.heroSection {
+    overflow: hidden;
+}
+
+.bgImg {
+    object-fit: cover;
+}
+
+.frostedCard {
+    position: absolute;
+    left: 10rem;
+    bottom: 25rem;
+
+    width: 650px;
+    height: 300px;
+    
+    font-size: 1.115rem;
+
+    background-color: #47b6e905;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+}
+
+.cardDesc {
+    color: #5e5e5e;
+    padding-top: 1rem;
+}
+
+.cardTitle {
+    font-size: 1.325rem;
+}
+
+.heroButton {
+    font-size: 1.115rem;
+    background-color: rgb(47, 99, 141);
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 0px;
+    border-radius: 5px;
+    
+}
