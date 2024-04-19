@@ -1,0 +1,43 @@
+.navigationMenu {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 0fr);
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+  }
+  
+  .navigationTitle {
+    font-size: 2rem;
+  
+    text-wrap: pretty;
+  }
+  
+  .navigationList {
+    list-style: none;
+    display: flex;
+    border: 1px;
+    padding: 1rem;
+    border-radius: 40px;
+    align-items: center;
+  }
+  
+  .navigationItem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-wrap: wrap;
+    font-size: 14px;
+  }
+  
+.clientAreaBtn {
+    background-color: rgb(47, 99, 141);
+    color: #fff;
+    font-weight: 600;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1rem;
+    align-content: center;
+    cursor: pointer;
+    font-size: 12px;
+  }

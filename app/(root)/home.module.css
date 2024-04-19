@@ -9,7 +9,7 @@
 .frostedCard {
     position: absolute;
     left: 10rem;
-    bottom: 10rem;
+    bottom: 25rem;
 
     width: 650px;
     height: 300px;
@@ -24,7 +24,7 @@
 }
 
 .cardDesc {
-    color: #5e5e5e;
+    color: #7a7a7a;
     padding-top: 1rem;
 }
 

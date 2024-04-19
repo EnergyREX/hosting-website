@@ -2,10 +2,10 @@ import Image from "next/image";
 
 import styles from "@/app/page.module.css"
 
-import { NavigationMenu } from "@/components/NavMenu";
-import Benefits from "@/components/sections/Benefits";
-import { ServicesSectionMC } from "@/components/sections/ServicesSection";
-import { OwlCard, OwlCardTitle } from "@/components/Owl";
+import { NavigationMenu } from "@/components/ui/Navbar/Navbar";
+import Benefits from "@/app/(root)/minecraft-hosting/Benefits";
+import { ServicesSectionMC } from "@/app/(root)/ServicesSection";
+import Card, { CardHeader, CardBody, CardDesc } from '@/components/ui/Card/Card';
 import { CiCircleCheck } from "react-icons/ci";
 
 import background from "@/public/bgwebsite.webp"
@@ -13,7 +13,6 @@ import background from "@/public/bgwebsite.webp"
 export default function Home() {
   return (
     <section>
-
     <div>
       <Image className={styles.owlbg}
         src={background}
@@ -21,19 +20,16 @@ export default function Home() {
         height={450}
         alt="background"
         priority />
-      <OwlCard>
-        <h1>Syntalink Solutions</h1>
-        <p>
-          We provide premium solutions for professionals, developers and businesses.
-        </p>
-        <ul>
-          <li><CiCircleCheck className={styles.listitemicon}/> Game server hosting.</li>
-          <li><CiCircleCheck className={styles.listitemicon}/>  Reliable KVM VPS.</li>
-          <li><CiCircleCheck className={styles.listitemicon}/>  Web hosting.</li>
-          <li><CiCircleCheck className={styles.listitemicon}/>  Discord Bot Hosting.</li>
-        </ul>
-        <button>See our products</button>
-      </OwlCard>
+      <Card>
+        <CardHeader>
+          Minecraft Hosting
+        </CardHeader>
+        <CardBody>
+          <CardDesc>
+            Cheap Minecraft hosting for any user. Buy your server starting at 0.99$ with a high-end CPU.
+          </CardDesc>
+        </CardBody>
+      </Card>
     </div>
 
       <Benefits />

@@ -17,3 +17,5 @@ export function CardBody ({children, className}: CardProps) {return (<div classN
 
 export function CardFooter ({children, className}: CardProps) {return (<div className={className}>{children}</div>)}
 
+export function CardDesc ({children, className}: CardProps) {return (<div className={className}>{children}</div>)}
+

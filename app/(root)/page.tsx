@@ -1,9 +1,7 @@
-import HeroSection from '@/components/sections/HeroSection'
-import ServicesSection from '@/components/sections/ServicesSection'
-import WhyUs from '@/components/sections/WhyUs'
+import HeroSection from '@/app/(root)/HeroSection'
+import ServicesSection from '@/app/(root)/ServicesSection'
+import WhyUs from '@/app/(root)/WhyUs'
 import React from 'react'
-
-import { heroData } from "@/lib/constants"
 
 const Home = () => {
   return (

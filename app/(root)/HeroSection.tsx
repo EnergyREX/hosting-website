@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 import bgImg from "@/public/bgwebsite.webp"
 
-import styles from "../modules/herosection.module.css"
+import styles from "./home.module.css"
 
-import Card, { CardHeader, CardBody } from '../ui/Card/Card';
-import Button from '../ui/Button/Button';
+import Card, { CardHeader, CardBody } from '../../components/ui/Card/Card';
+import Button from '../../components/ui/Button/Button';
 
 const HeroSection = () => {
   return (
