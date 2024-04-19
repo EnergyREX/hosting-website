@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import styles from "@/app/page.module.css"
 
-import { NavigationMenu } from "@/components/ui/Navbar/Navbar";
 import Benefits from "@/app/(root)/minecraft-hosting/Benefits";
 import { ServicesSectionMC } from "@/app/(root)/ServicesSection";
 import Card, { CardHeader, CardBody, CardDesc } from '@/components/ui/Card/Card';

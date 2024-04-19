@@ -29,15 +29,47 @@
     font-size: 14px;
   }
   
+.clientAreaUl {
+  opacity: 0;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  position: absolute;
+  list-style-type: none;
+
+  border-radius: 5px;
+
+  background-color: rgb(47,99,141);
+
+  transition: opacity 0.3s ease;
+
+  align-items: center;
+}
+
+.dropDwnUl {
+  padding-top: 0.625rem;
+}
+
+.descriptionDropDwn {
+  color: rgb(136, 136, 136);
+}
+
 .clientAreaBtn {
     background-color: rgb(47, 99, 141);
     color: #fff;
     font-weight: 600;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-left: 1rem;
     align-content: center;
     cursor: pointer;
     font-size: 12px;
   }
+
+
+  .clientAreaBtn:hover ~ .clientAreaUl {
+    opacity: 1;
+  }
+    
