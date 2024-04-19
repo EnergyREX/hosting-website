@@ -15,7 +15,6 @@ const Navbar = () => {
       <ul className={styles.navigationList}>
         <Link className={styles.navigationItem} href="/minecraft-hosting">Minecraft Hosting</Link>
         <Link className={styles.navigationItem} href="/vps">VPS KVM</Link>
-        <Link className={styles.navigationItem} href="/dedicated">Dedicated Hosting</Link>
         <Link className={styles.navigationItem} href="/web">Web hosting</Link>
         <div>
           <Button className={styles.clientAreaBtn}><FaLock /> CLIENT AREA</Button>

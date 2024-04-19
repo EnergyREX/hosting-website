@@ -7,7 +7,7 @@ import { ServicesSectionMC } from "@/app/(root)/ServicesSection";
 import Card, { CardHeader, CardBody, CardDesc } from '@/components/ui/Card/Card';
 import { CiCircleCheck } from "react-icons/ci";
 
-import background from "@/public/bgwebsite.webp"
+import background from "@/public/mcbg.jpg"
 
 export default function Home() {
   return (

@@ -5,6 +5,9 @@
     grid-template-rows: repeat(1, 0fr);
     align-items: center;
     background-color: rgb(14, 14, 14);
+
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
   
   .navigationTitle {
@@ -16,10 +19,12 @@
   .navigationList {
     list-style: none;
     display: flex;
+    justify-content: flex-end;
     border: 1px;
     padding: 1rem;
     border-radius: 40px;
     align-items: center;
+    align-self: left;
   }
   
   .navigationItem {
