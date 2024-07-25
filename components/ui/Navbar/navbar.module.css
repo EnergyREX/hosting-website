@@ -33,6 +33,14 @@
     text-wrap: wrap;
     font-size: 14px;
   }
+
+  .navigationItem:hover {
+    text-decoration: underline;
+  }
+
+  .navigationMenuLogo {
+    font-weight: 800;
+  }
   
 .clientAreaUl {
   opacity: 0;
@@ -53,7 +61,20 @@
 }
 
 .dropDwnUl {
+  display: flex;
   padding-top: 0.625rem;
+  align-items: center;
+}
+
+.dropDwnLink {
+  display: flex;
+  align-items: center;
+}
+
+.dropDwnIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.425rem;
 }
 
 .descriptionDropDwn {

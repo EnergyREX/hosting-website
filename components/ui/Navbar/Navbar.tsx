@@ -11,7 +11,7 @@ import { FaLock, FaGamepad, FaServer, FaMoneyBill } from 'react-icons/fa';
 const Navbar = () => {
   return (
     <nav className={styles.navigationMenu}>      
-    <Link href="/"><Image src={infotype} width={249} height={60} alt="syntalink-infotype" /></Link>
+    <Link href="/"><p className={styles.navigationMenuLogo}>WEBSITE LOGO</p></Link>
       <ul className={styles.navigationList}>
         <Link className={styles.navigationItem} href="/minecraft-hosting">Minecraft Hosting</Link>
         <Link className={styles.navigationItem} href="/vps">VPS KVM</Link>
@@ -19,9 +19,9 @@ const Navbar = () => {
         <div>
           <Button className={styles.clientAreaBtn}><FaLock /> CLIENT AREA</Button>
           <ul className={styles.clientAreaUl}>
-            <li className={styles.dropDwnUl}><Link className={styles.dropDwnUl} href="VPS-PANEL"><FaServer /> VPS Panel <p className={styles.descriptionDropDwn}>(Login Virtfusion)</p> </Link></li>
-            <li className={styles.dropDwnUl}><Link className={styles.dropDwnUl} href="GAME-PANEL"><FaGamepad /> Game panel <p className={styles.descriptionDropDwn}>(Login Gameservers)</p></Link></li>
-            <li className={styles.dropDwnUl}><Link className={styles.dropDwnUl} href="BILLING-PANEL"><FaMoneyBill /> Billing Area <p className={styles.descriptionDropDwn}>(Login billing)</p></Link></li>
+            <li className={styles.dropDwnUl}><Link className={styles.dropDwnLink} href="VPS-PANEL"><FaServer className={styles.dropDwnIcon} /> VPS Panel</Link></li>
+            <li className={styles.dropDwnUl}><Link className={styles.dropDwnLink} href="GAME-PANEL"><FaGamepad className={styles.dropDwnIcon} /> Game panel</Link></li>
+            <li className={styles.dropDwnUl}><Link className={styles.dropDwnLink} href="BILLING-PANEL"><FaMoneyBill className={styles.dropDwnIcon} /> Billing Area</Link></li>
           </ul>
         </div>
       </ul>
