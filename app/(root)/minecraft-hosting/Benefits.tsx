@@ -31,7 +31,7 @@ export default function Benefits() {
   <div className={styles.benefitsWrapper}>
     <BenefitsBody>
     <div className={styles.titleWrapper}>
-      <h1>SYNTALINK OFFERS AN INDUSTRY-LEADING GAME SERVERS WITH EVERYTHING YOU NEED TO MANAGE YOUR MINECRAFT SERVER.</h1>
+      <h1>WE OFFER AN INDUSTRY-LEADING GAME SERVERS WITH EVERYTHING YOU NEED TO MANAGE YOUR MINECRAFT SERVER.</h1>
     </div>
       <BenefitsCard><TbWorld /> MULTIPLE LOCATIONS ARROUND THE WORLD</BenefitsCard>
       <BenefitsCard><SiPterodactyl/> PTERODACTYL CONTROL PANEL</BenefitsCard>

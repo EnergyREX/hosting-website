@@ -53,7 +53,7 @@ function TextCardDescription({children}: childrenProps) {
 export default function WhyUs() {
   return(
     <WhyUsSection>
-      <WhyUsTitle>Why should choose Syntalink Solutions?</WhyUsTitle>
+      <WhyUsTitle>Why should choose us?</WhyUsTitle>
       <CardWrapper>
         <TextCard>
           <TextCardTitle><FaHeartbeat className={styles.textCardIcon} />100% Server Uptime</TextCardTitle>
